@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>表单页</title>
+ </head>
+ <body>
+ 表单页
+ </body>
+</html>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+      	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>#{get 'title' /}</title>      
+        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+        <link rel="stylesheet" media="screen" href="@{'/public/bootstrap/css/bootstrap.min.css'}">
+        #{get 'moreStyles' /}
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.ico'}">
+        <script src="@{'/public/javascripts/jquery-2.1.4.min.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/bootstrap/js/bootstrap.min.js'}" type="text/javascript" charset="utf-8"></script>
+        <script src="@{'/public/javascripts/angular.min.js'}" type="text/javascript" charset="utf-8"></script>
+        #{get 'moreScripts' /}
+    </head>
+    <body>
+    
+        #{doLayout /}
+    </body>
+</html>
